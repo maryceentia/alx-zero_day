@@ -1,2 +1,1 @@
-#!/bin/bash
-my shell redirection readme
+shell redirection readme
