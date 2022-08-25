@@ -16,3 +16,10 @@
 - [What is ping /ICMP](https://en.wikipedia.org/wiki/Ping_%28networking_utility%29)
 - [Positional parameters](https://wiki.bash-hackers.org/scripting/posparams)
 - [IP + port = socket](https://stackoverflow.com/questions/152457/what-is-the-difference-between-a-port-and-a-socket)
+<br>
+![OSImodel](./OSI Model.png "OSI model")
+<br>
+![]("")
+<br>
+![]("")
+<br>
