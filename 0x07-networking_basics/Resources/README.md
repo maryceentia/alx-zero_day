@@ -17,9 +17,12 @@
 - [Positional parameters](https://wiki.bash-hackers.org/scripting/posparams)
 - [IP + port = socket](https://stackoverflow.com/questions/152457/what-is-the-difference-between-a-port-and-a-socket)
 <br>
-![OSImodel](./OSI Model.png "OSI model")
+<img src="./OSI Model.png" alt="OSI model">
 <br>
-![]("")
+<img src="./OSI Model_2.jpg" alt="OSI model">
 <br>
-![]("")
+<img src"./LAN&WAN.jpg" alt="Lan and wan">
 <br>
+<img src="./UDP_&_TCP.jpg" alt="udp and tcp">
+<br>
+<img src"./MAC-Addresses.jpg" alt="MAC addresses">
