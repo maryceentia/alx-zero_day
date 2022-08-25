@@ -1,4 +1,4 @@
 #!/bin/bash
 # changes the group owner to "school" for the file "hello"
 
-sudo chown :school hello
+chgrp school hello
