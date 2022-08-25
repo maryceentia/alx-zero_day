@@ -1,1 +1,4 @@
 #!/bin/bash
+# changes the group owner to "school" for the file "hello"
+
+sudo chgrp hello school
