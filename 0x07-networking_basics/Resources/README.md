@@ -21,8 +21,8 @@
 <br>
 <img src="./OSI Model_2.jpg" alt="OSI model">
 <br>
-<img src"./LAN&WAN.jpg" alt="Lan and wan">
+<img src="./LAN&WAN.jpg" alt="Lan and wan">
 <br>
 <img src="./UDP_&_TCP.jpg" alt="udp and tcp">
 <br>
-<img src"./MAC-Addresses.jpg" alt="MAC addresses">
+<img src="./MAC_Addresses.jpg" alt="MAC addresses">
