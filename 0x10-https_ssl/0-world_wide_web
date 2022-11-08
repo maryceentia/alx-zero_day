@@ -7,7 +7,7 @@ output () {
 
 if [ "$#" -eq 2 ]
 then
-    output
+    output "$2.$1"
 else
     output "www.$1" 'www'
     output "lb-01.$1" 'lb-01'
