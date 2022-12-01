@@ -8,8 +8,9 @@
 #+    Contains a custom HTTP header named X-Served-By.
 #+    The value of the HTTP header is the hostname of the running server.
 
-apt-get update
-apt-get install -y nginx
+sudo apt-get update
+sudo apt-get upgrade -y
+sudo apt-get install -y nginx
 
 mkdir -p /var/www/html
 touch /var/www/html/index.html
@@ -36,4 +37,4 @@ server="server {
 }"
 sudo echo > /etc/nginx/sites-available/default
 
-service nginx restart
+sudo service nginx restart
