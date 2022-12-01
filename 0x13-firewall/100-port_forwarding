@@ -1,4 +1,9 @@
-#
+# /etc/ufw/rules.before
+# /etc/ufw/sysctl.conf
+
+
+# ----- before.rules file ------
+
 # rules.before
 #
 # Rules that should be run before the ufw command line added rules. Custom
@@ -78,3 +83,7 @@
 
 # don't delete the 'COMMIT' line or these rules won't be processed
 COMMIT
+
+
+# ------- sysctl.conf file ----------
+net.ipv4.ip_forward=1
