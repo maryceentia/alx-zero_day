@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-# returns information about user TODO list progress using employee ID, Restapi
+"""
+returns information about user TODO list progress using employee ID, Restap
+"""
 
 if __name__ == '__main__':
     import requests
