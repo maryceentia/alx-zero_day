@@ -5,7 +5,7 @@ import sys
 
 if __name__ == '__main__':
     url = 'https://jsonplaceholder.typicode.com'
-    users = requests.get(url + 'users', params={'id': sys.argv[1]})
+    users = requests.get(url + f'users/{sys.argv[1]}')
     todos = requests.get(url + 'todos', params={'userId': sys.argv[1]})
 
     name = users.json()[0].get('name')
