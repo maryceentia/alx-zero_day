@@ -4,11 +4,11 @@ import requests
 import sys
 
 if __name__ == '__main__':
-    url = 'https://jsonplaceholder.typicode.com'
+    url = 'https://jsonplaceholder.typicode.com/'
     users = requests.get(url + f'users/{sys.argv[1]}')
     todos = requests.get(url + 'todos', params={'userId': sys.argv[1]})
 
-    name = users.json()[0].get('name')
+    name = users.json().get('name')
     completed = []
     for task in todos.json():
         if task.get('completed') is True:
